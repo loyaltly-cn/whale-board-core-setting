@@ -3,6 +3,9 @@ Object.defineProperties(exports, { __esModule: { value: true }, [Symbol.toString
 var common_vendor = require("./common/vendor.js");
 if (!Math) {
   "./pages/index/index.js";
+  "./pages/index/home.js";
+  "./pages/index/key.js";
+  "./pages/index/area.js";
 }
 const _sfc_main = {};
 var App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "C:/project/uniapp/core-setting/src/App.vue"]]);

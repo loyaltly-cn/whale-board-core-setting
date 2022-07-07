@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "loyal"; /* Project id 3505049 */
+  src: url('iconfont.ttf?t=1657160407437') format('truetype');
+}
+
+.loyal {
+  font-family: "loyal" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eraser:before {
+  content: "\e602";
+}
+
+.icon-finger:before {
+  content: "\e659";
+}
+
+.icon-black:before {
+  content: "\e600";
+}
+
+.icon-key:before {
+  content: "\e65d";
+}
+
+.icon-clear:before {
+  content: "\e747";
+}
+
+.icon-end:before {
+  content: "\e62a";
+}
+
+.icon-save:before {
+  content: "\e603";
+}
+
+.icon-radio:before {
+  content: "\e654";
+}
+
+.icon-start:before {
+  content: "\e615";
+}
+
+.icon-area:before {
+  content: "\e62e";
+}
+
+.icon-pen:before {
+  content: "\e74b";
+}
+
+.icon-blue:before {
+  content: "\e74a";
+}
+
+.icon-red:before {
+  content: "\e748";
+}
+

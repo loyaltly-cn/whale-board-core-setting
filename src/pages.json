@@ -2,7 +2,8 @@
 	"easycom": {
 		"autoscan": true,
 		"custom": {
-			"^u-(.*)": "vk-uview-ui/components/u-$1/u-$1.vue"
+			// uni-ui 规则如下配置
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
 		}
 	},
 
@@ -10,7 +11,22 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "输入ip连接设备"
+			}
+		},{
+			"path": "pages/index/home",
+			"style": {
+				"navigationBarTitleText": "请选择要配置的类型"
+			}
+		},{
+			"path": "pages/index/key",
+			"style": {
+				"navigationBarTitleText": "请选择要配置的虚拟按键"
+			}
+		},{
+			"path": "pages/index/area",
+			"style": {
+				"navigationBarTitleText": "请选择要配置的选项"
 			}
 		}
 	],

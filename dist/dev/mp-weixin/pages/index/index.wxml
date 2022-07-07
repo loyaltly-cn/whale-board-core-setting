@@ -1,1 +1,1 @@
-<view><text>sdfsd;flkl</text></view>
+<view class="main"><input class="uni-input" bindinput="{{a}}" placeholder="请输入设备ip" type="number" value="{{b}}"/><uni-icons wx:if="{{d}}" bindclick="{{c}}" u-i="3abf2bf0-0" bind:__l="__l" u-p="{{d}}"/></view>

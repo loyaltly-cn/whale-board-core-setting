@@ -7,27 +7,35 @@
 
 <script setup>
   import {ref} from "vue";
+  const value = ref('192.168.31.103')
 
-  const value = ref('192.168.31.86')
   let ip = ref(value)
-  //我为什么这么写？ 别问 问就是吊文档没写绑定的props
+  //我为什么这么写？ 别问 问就是屌文档没写绑定的props
   const change = e => ip.value = e.detail.value
+
 
   const connect = () =>{
     uni.showLoading({
       title:'连接中'
     })
-    const url = 'http://'+ip.value+':2333/connect'
+
+    const con = 'http://'+ip.value+':2333/connect'
     uni.request({
-      url:url,
-      success:(res) =>{
+      url:con,
+      success:() =>{
         uni.hideLoading()
         uni.showToast({
           title:'连接成功',
           icon:'success',
           success:() =>{
-            uni.reLaunch({
-              url:'home'
+            uni.setStorage({
+              key:'ip',
+              data:ip.value,
+              success:() =>{
+                uni.reLaunch({
+                  url:'index'
+                })
+              }
             })
           }
         })
@@ -41,7 +49,11 @@
         })
       }
     })
+
+
   }
+
+
 </script>
 
 <style >

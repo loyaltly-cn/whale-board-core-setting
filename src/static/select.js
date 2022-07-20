@@ -29,8 +29,8 @@ export const list = [
             value: 'end'
         }]
     },{
-        name:'触摸面积',
-        value:'area',
+        name:'触摸面积(形状)',
+        value:'shape',
         values: [
             {
                 name:'笔',

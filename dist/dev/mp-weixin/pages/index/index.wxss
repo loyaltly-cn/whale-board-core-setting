@@ -1,12 +1,16 @@
 
-.main{
+.main.data-v-1badc801{
+    margin: 15px 15px;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 50%;
-    /*margin:100px 20px auto 20px;*/
+    flex-direction: column;
 }
-.uni-input{
-    height: 10px;
-    border-bottom: 2px solid blue;
+.element.data-v-1badc801{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #d6d9d9 solid 1px;
+    align-items: center;
+}
+.icon.data-v-1badc801{
+    height: 40px;
 }

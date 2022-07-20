@@ -36,7 +36,7 @@
 .icon-start:before {
   content: "\e615";
 }
-.icon-area:before {
+.icon-shape:before {
   content: "\e62e";
 }
 .icon-pen:before {

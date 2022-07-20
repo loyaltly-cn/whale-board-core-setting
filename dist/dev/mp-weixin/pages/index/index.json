@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "输入ip连接设备",
+  "navigationBarTitleText": "请选择要配置的类型",
   "usingComponents": {
     "uni-icons": "../../node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons"
   }

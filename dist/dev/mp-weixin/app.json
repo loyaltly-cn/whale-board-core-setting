@@ -1,9 +1,10 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/index/home",
-    "pages/index/key",
-    "pages/index/area"
+    "pages/connect",
+    "pages/index",
+    "pages/select",
+    "pages/key",
+    "pages/shape"
   ],
   "window": {
     "navigationBarTextStyle": "black",

@@ -9,24 +9,29 @@
 
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/connect",
 			"style": {
 				"navigationBarTitleText": "输入ip连接设备"
 			}
 		},{
-			"path": "pages/index/home",
+			"path": "pages/index",
 			"style": {
 				"navigationBarTitleText": "请选择要配置的类型"
 			}
 		},{
-			"path": "pages/index/key",
-			"style": {
-				"navigationBarTitleText": "请选择要配置的虚拟按键"
-			}
-		},{
-			"path": "pages/index/area",
+			"path": "pages/select",
 			"style": {
 				"navigationBarTitleText": "请选择要配置的选项"
+			}
+		},{
+			"path": "pages/key",
+			"style": {
+				"navigationBarTitleText": "虚拟键配置"
+			}
+		},{
+			"path": "pages/shape",
+			"style": {
+				"navigationBarTitleText": "形状配置"
 			}
 		}
 	],

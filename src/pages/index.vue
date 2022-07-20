@@ -1,8 +1,8 @@
 <template>
   <view class="main">
     <view v-for="item in list">
-      <view class="element" @click="select(item.value)" >
-        <uni-icons class="icon" custom-prefix="loyal" :type="icon_prefix+item.value" size="30"/>
+      <view class="element" @click="select(item)" >
+        <uni-icons class="icon" custom-prefix="loyal" :type="proxy.$icon_prefix+item.value" size="30"/>
         <text >配置{{item.name}}</text>
         <uni-icons type="forward"/>
       </view>
@@ -11,12 +11,21 @@
 </template>
 
 <script setup>
-  import {list} from "../../static/select";
-  const icon_prefix = 'icon-'
+  import {list} from "../static/select";
+  import {getCurrentInstance} from "vue";
+  const {proxy} = getCurrentInstance()
 
-  const select = (value) =>{
-    uni.navigateTo({
-      url:value
+  uni.hideHomeButton()
+
+  const select = (item) =>{
+    uni.setStorage({
+      key:'item',
+      data:item,
+      success:() =>{
+        uni.navigateTo({
+          url:'select'
+        })
+      }
     })
   }
 

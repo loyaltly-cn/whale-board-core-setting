@@ -36,3 +36,8 @@ uni.request({
      }
    })
 ``` 
+
+## tips
+- icon 由iconfont制作生成 文件在/static下 iconfont.css && iconfont.ttf
+- 未写 核心板 与 ws server 之间的断开操作 重启会自动断开连接 可在ws server 中使用 RestTemplate 进行优化 
+- 所有选项配置都在select.js 中 shape name 对应 core.json 的 type name 

@@ -37,11 +37,7 @@ uni.request({
    })
 ``` 
 
-## live implementation process
-- connect ws 
-- ws res convert
-- insert fifo
-- `live flge = true`
+
 
 ## tips
 - icon 由iconfont制作生成 文件在/static下 iconfont.css && iconfont.ttf

@@ -13,7 +13,7 @@ app.config.globalProperties.$shape = [8,12]
 ## project implementation process
 - connect.vue 获取ip 之后会向flask 发送http 以确保ip 的正确
 - 选择对应选项的配置 在选择具体配置时会建立 socket connect -->key.uve && shape.vue
-```js
+```
   const ws = 'ws://'+ip+'/loyal'
 
   uni.connectSocket({url:ws})
